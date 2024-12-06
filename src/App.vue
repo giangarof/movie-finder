@@ -45,7 +45,7 @@ const handleSubmit = () => {
 
     <p class="p-2 text-center"
       v-if="!movies.length">
-      Start searching!</p>
+      Start searching! 100% free.!</p>
 
     <ul v-if="movies.length" class="md:grid md:grid-cols-2 xl:grid-cols-3 xs:flex xs:flex-col">
       <li v-for="x in movies" :key="x.imdbID" class="bg-slate-200 m-3 p-2 w-fit">
