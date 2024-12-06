@@ -16,7 +16,7 @@ const handleSubmit = () => {
   const data = async(search) => {
     try {
       
-      const res =  await axios.get(`http://www.omdbapi.com/`, {
+      const res =  await axios.get(`https://www.omdbapi.com/`, {
         params: {apiKey: key, s: search}
       })
       console.log(res.data)
