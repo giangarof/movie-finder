@@ -31,7 +31,7 @@ const handleSubmit = () => {
 
 <template>
 
-  <div class="bg-gray-100 w-full">
+  <div class="bg-gray-100 w-full items flex flex-col items-center">
     <div class="bg-black p-3 xs:text-center flex xs:flex-col md:flex-row md:justify-between xs:w-full">
 
       <h1 class="text-xl text-slate-50 content-center">THE MOVIES API</h1>
